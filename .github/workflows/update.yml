@@ -1,0 +1,63 @@
+name: Fetch and commit next release
+
+on:
+  schedule:
+  - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  trigger-rebuild:
+    name: Update and trigger rebuild
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          submodules: true
+          token: ${{ secrets.PAT }}
+
+      - name: Configure
+        run: |
+          git config --local user.email "${MAIL}"
+          git config --local user.name "${NAME}"
+        env:
+          MAIL: 41898282+github-actions[bot]@users.noreply.github.com
+          NAME: github-actions[bot]
+
+      - id: fetch
+        name: Fetch latest release
+        run: |
+          curl -s "https://${URL}" -o "${VERSION}"
+          echo "::set-output name=file::${VERSION}"
+        env:
+          URL: api.github.com/repos/microsoft/terminal/releases/latest
+          VERSION: version.json
+
+      - id: query
+        name: Query release tag
+        run: echo "::set-output name=tag::$(jq -r .tag_name ${VERSION})"
+        env:
+          VERSION: ${{ steps.fetch.outputs.file }}
+
+      - id: barrier
+        name: Check local tags
+        run: git show-ref --tags "${TAG}" --quiet
+        continue-on-error: true
+        env:
+          TAG: ${{ steps.query.outputs.tag }}
+
+      - name: Push tagged commit
+        if: steps.barrier.outcome != 'success'
+        run: |
+          git -C "${SUBMODULE}" fetch --tags
+          git -C "${SUBMODULE}" checkout "${TAG}"
+          git add "${VERSION}" "${SUBMODULE}"
+          git commit -m "Add microsoft/terminal@${TAG}"
+          git tag "${TAG}"
+          git push --atomic origin master "${TAG}"
+        env:
+          SUBMODULE: thirdparty/terminal
+          TAG: ${{ steps.query.outputs.tag }}
+          VERSION: ${{ steps.fetch.outputs.file }}

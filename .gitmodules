@@ -1,0 +1,4 @@
+[submodule "thirdparty/terminal"]
+	path = thirdparty/terminal
+	url = https://github.com/microsoft/terminal.git
+	ignore = dirty
