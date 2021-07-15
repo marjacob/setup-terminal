@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/microsoft/terminal/releases/43547483",
-  "assets_url": "https://api.github.com/repos/microsoft/terminal/releases/43547483/assets",
-  "upload_url": "https://uploads.github.com/repos/microsoft/terminal/releases/43547483/assets{?name,label}",
-  "html_url": "https://github.com/microsoft/terminal/releases/tag/v1.8.1444.0",
-  "id": 43547483,
+  "url": "https://api.github.com/repos/microsoft/terminal/releases/46200441",
+  "assets_url": "https://api.github.com/repos/microsoft/terminal/releases/46200441/assets",
+  "upload_url": "https://uploads.github.com/repos/microsoft/terminal/releases/46200441/assets{?name,label}",
+  "html_url": "https://github.com/microsoft/terminal/releases/tag/v1.9.1942.0",
+  "id": 46200441,
   "author": {
     "login": "DHowett",
     "id": 189190,
@@ -24,20 +24,20 @@
     "type": "User",
     "site_admin": false
   },
-  "node_id": "MDc6UmVsZWFzZTQzNTQ3NDgz",
-  "tag_name": "v1.8.1444.0",
+  "node_id": "MDc6UmVsZWFzZTQ2MjAwNDQx",
+  "tag_name": "v1.9.1942.0",
   "target_commitish": "main",
-  "name": "Windows Terminal v1.8.1444.0",
+  "name": "Windows Terminal v1.9.1942.0",
   "draft": false,
   "prerelease": false,
-  "created_at": "2021-05-25T16:52:32Z",
-  "published_at": "2021-05-25T19:03:26Z",
+  "created_at": "2021-07-14T16:24:53Z",
+  "published_at": "2021-07-14T17:00:44Z",
   "assets": [
     {
-      "url": "https://api.github.com/repos/microsoft/terminal/releases/assets/37515137",
-      "id": 37515137,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDM3NTE1MTM3",
-      "name": "Microsoft.WindowsTerminal_1.8.1444.0_8wekyb3d8bbwe.msixbundle",
+      "url": "https://api.github.com/repos/microsoft/terminal/releases/assets/40297821",
+      "id": 40297821,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDQwMjk3ODIx",
+      "name": "Microsoft.WindowsTerminal_1.9.1942.0_8wekyb3d8bbwe.msixbundle",
       "label": null,
       "uploader": {
         "login": "DHowett",
@@ -61,17 +61,17 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 28209528,
-      "download_count": 40524,
-      "created_at": "2021-05-25T17:12:16Z",
-      "updated_at": "2021-05-25T17:12:57Z",
-      "browser_download_url": "https://github.com/microsoft/terminal/releases/download/v1.8.1444.0/Microsoft.WindowsTerminal_1.8.1444.0_8wekyb3d8bbwe.msixbundle"
+      "size": 29713162,
+      "download_count": 1481,
+      "created_at": "2021-07-14T16:30:30Z",
+      "updated_at": "2021-07-14T16:30:31Z",
+      "browser_download_url": "https://github.com/microsoft/terminal/releases/download/v1.9.1942.0/Microsoft.WindowsTerminal_1.9.1942.0_8wekyb3d8bbwe.msixbundle"
     },
     {
-      "url": "https://api.github.com/repos/microsoft/terminal/releases/assets/37515170",
-      "id": 37515170,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDM3NTE1MTcw",
-      "name": "Microsoft.WindowsTerminal_1.8.1444.0_8wekyb3d8bbwe.msixbundle_Windows10_PreinstallKit.zip",
+      "url": "https://api.github.com/repos/microsoft/terminal/releases/assets/40297818",
+      "id": 40297818,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDQwMjk3ODE4",
+      "name": "Microsoft.WindowsTerminal_1.9.1942.0_8wekyb3d8bbwe.msixbundle_Windows10_PreinstallKit.zip",
       "label": null,
       "uploader": {
         "login": "DHowett",
@@ -95,26 +95,26 @@
       },
       "content_type": "application/x-zip-compressed",
       "state": "uploaded",
-      "size": 27756219,
-      "download_count": 3811,
-      "created_at": "2021-05-25T17:12:57Z",
-      "updated_at": "2021-05-25T17:13:08Z",
-      "browser_download_url": "https://github.com/microsoft/terminal/releases/download/v1.8.1444.0/Microsoft.WindowsTerminal_1.8.1444.0_8wekyb3d8bbwe.msixbundle_Windows10_PreinstallKit.zip"
+      "size": 29256391,
+      "download_count": 73,
+      "created_at": "2021-07-14T16:30:23Z",
+      "updated_at": "2021-07-14T16:30:30Z",
+      "browser_download_url": "https://github.com/microsoft/terminal/releases/download/v1.9.1942.0/Microsoft.WindowsTerminal_1.9.1942.0_8wekyb3d8bbwe.msixbundle_Windows10_PreinstallKit.zip"
     }
   ],
-  "tarball_url": "https://api.github.com/repos/microsoft/terminal/tarball/v1.8.1444.0",
-  "zipball_url": "https://api.github.com/repos/microsoft/terminal/zipball/v1.8.1444.0",
-  "body": "This release brings all of the preview changes in Windows Terminal 1.8 to the stable channel. Notable changes include:\r\n\r\n* Windows can now be **named** for automation and scripting purposes\r\n   * With the `-w` parameter, as in `wt -w razzle` and `wt -w dazzle` (#9300)\r\n* A profile can now specify how it will appear when it's not focused via the `unfocusedAppearance` settings.json key (#8392)\r\n   * Supported settings: `foreground`, `background`, `selectionBackground`, `cursorColor`, `cursorShape`, `cursorHeight`, `backgroundImage`, `colorScheme`, `backgroundImageOpacity`, `backgroundImageStretchMode`, `backgroundImageAlignment`, `experimental.retroTerminalEffect`, and `experimental.pixelShaderPath`\r\n\r\nPlease see the following release notes for additional details:\r\n\r\n* [Windows Terminal Preview v1.8.1032.0](https://github.com/microsoft/terminal/releases/tag/v1.8.1032.0)\r\n\r\nA [preinstallation](https://docs.microsoft.com/en-us/windows/msix/desktop/deploy-preinstalled-apps) kit is available for system integrators and OEMs interested in prepackaging Windows Terminal with a Windows image. More information is available in the [DISM documentation on preinstallation](https://docs.microsoft.com/windows-hardware/manufacture/desktop/preinstall-apps-using-dism). Users who do not intend to preinstall Windows Terminal should continue using the _msixbundle_ distribution.\r\n\r\nWe've also backported the following changes and bug fixes from [Windows Terminal Preview 1.9.1445.0](https://github.com/microsoft/terminal/releases/tag/v1.9.1445.0):\r\n\r\n## Changes\r\n\r\n* When you rename a window, we will now acknowledge that we actually did it (#9808)\r\n* Terminal will now show a more scrutable error message when your starting directory cannot be found (#10045)\r\n\r\n## Bug Fixes\r\n\r\n* There was an issue that would result in blank profiles or profiles containing just one setting; it is now fixed (#9964)\r\n   * The only known cause of this issue was editing the settings of a profile the first time you ever launch Terminal\r\n   * If you have profiles named `Default` in your dropdown, this is probably why.\r\n   * We will now attempt to heal settings files broken by this bug (#10143)\r\n      * If you _did_ have a profile that you actually liked that didn't have a name or a GUID or any settings, it will now be broken.\r\n         * (Why? That's just a Command Prompt profile with no useful identifying information in it...)\r\n* We've fixed a bunch of instances of the terminal losing focus (#10048) (#10114)\r\n* We will no longer close a tab on middle-click **down** (because **up** is much more reasonable) (#9842) (thanks @Don-Vito)\r\n* The \"close tabs to the right\" and \"close other\" options have finally returned, thanks to some quick out-of-the-box thinking (#9859) (thanks @mpela81)\r\n* Nested commands will no longer interfere with deleting the `>` command palette mode character (#10164) (thanks @kovdu)\r\n* The \"new tab\" dropdown will no longer go up when it used to go down; we no longer live in topsy turvy-land (#10009) (thanks @mpela81)\r\n* Terminal will no longer create a new profile with the name \"Profile 13\" if you're weird enough to add a new profile called \"Profile 13\" yourself (as an example) (#9816) (thanks @Don-Vito)\r\n* The window rename action will no longer also pop keys into the terminal (#9809) (thanks @Don-Vito)\r\n* You can now navigate better using your key bindings in the Settings UI (focus mode, fullscreen, etc.) (#10121)\r\n* Terminal will no longer let an application emit more than one bell per second (#9812) (thanks @Don-Vito)\r\n   * In other news, a 1-second delay we accidentally introduced before a bell has been resolved (#10133)\r\n* The command palette will now respect your locale when you do a case-insensitive search (#9943) (thanks @Don-Vito)\r\n\r\n### Reliability\r\n* We should no longer crash on exit nearly as often -- either exiting a shell or the application (#10115) (#10042) (#10031)\r\n* Typing `--tabColor` into the command palette now has a 100% reduced chance of crashing (#10096)\r\n\r\n### Performance\r\n\r\n* Some of our debug logging was being enabled by accident, so we've restricted its activation further (#10098)\r\n   * This bug caused a significant reduction in rendering throughput!\r\n\r\n## WPF Control\r\n\r\n* The WPF control can now have a background that varies from the terminal background (#10026)\r\n",
+  "tarball_url": "https://api.github.com/repos/microsoft/terminal/tarball/v1.9.1942.0",
+  "zipball_url": "https://api.github.com/repos/microsoft/terminal/zipball/v1.9.1942.0",
+  "body": "This release brings many of the preview changes in Windows Terminal 1.9 to the stable channel.\r\n\r\nYou may not yet see this release in the Store. We are trying a new \"slow rollout\" system that follows the Windows Insider program. You can always install a new build from this repository!\r\n\r\nNotable changes include:\r\n\r\n* Terminal now supports pinning an instance to the top of the screen that you can summon at any time (colloquially referred to as \"Quake Mode\") (#9785) (#9956) (#9977) (#10108) (#10113) (#10150)\r\n   * It is bound by default to <kbd>Win+`</kbd> (#10122)\r\n* Terminal now supports mouse input for Windows console applications! (#9970) (#10138)\r\n* The Appearance page will now show you a (tiny) preview of the Terminal (#9527)\r\n\r\nPlease note that the following features are **not** included in the 1.9 stable release:\r\n\r\n* The ability to set Windows Terminal (stable) as the default console application host\r\n* The live action editor in the Settings UI\r\n\r\nPlease see the following release notes for additional details:\r\n\r\n* [Windows Terminal Preview v1.9.1445.0](https://github.com/microsoft/terminal/releases/tag/v1.9.1445.0)\r\n* This release includes changes from an undocumented v1.9.1523.0 release. These changes will be indicated below.\r\n\r\nA [preinstallation](https://docs.microsoft.com/en-us/windows/msix/desktop/deploy-preinstalled-apps) kit is available for system integrators and OEMs interested in prepackaging Windows Terminal with a Windows image. More information is available in the [DISM documentation on preinstallation](https://docs.microsoft.com/windows-hardware/manufacture/desktop/preinstall-apps-using-dism). Users who do not intend to preinstall Windows Terminal should continue using the _msixbundle_ distribution.\r\n\r\nWe've also backported the following changes and bug fixes from [Windows Terminal Preview 1.10.1933.0](https://github.com/microsoft/terminal/releases/tag/v1.10.1933.0):\r\n\r\n## Changes\r\n\r\n* This version of Terminal comes with [Cascadia Code 2106.17]. This version of the Cascadia family of fonts refines the \"cursive\" italic letter forms to have more universally-acceptable shapes and introduces support for Hebrew and Arabic glyphs.\r\n* Terminal windows launched via \"Open Here\" will open new tabs in the same directory (#10546) (thanks @ianjoneill)\r\n* The \"quake mode\" action is now named \"Summon Quake window\" instead of \"Global summon something something window \\_quake\" (#10641)\r\n* The opacity slider will now display a `%` sign like it should have to begin with (#10369) (thanks @chingucoding)\r\n\r\n## Bug Fixes\r\n\r\n* An accessibility issue that resulted in misshapen selection regions has been fixed (#10544)\r\n* Terminal will no longer minimize itself when targeted by a commandline application (#10389)\r\n   * ... or when you target it with `-w` (#10396)\r\n* We will no longer destroy commands using `iterateOn` when you press _Save_ (#10373)\r\n* Nested commands now dismiss more reliably when using the command palette (#10392) (thanks @kovdu)\r\n* We will not attempt to not un-toggle the command palette if you choose to toggle it while it is open (#10423) (thanks @kovdu)\r\n* When we encounter a malformed fragment document, we will _no longer_ fail to read any future fragment documents (#10601)\r\n* The action editor should now be more _usable_ in Light theme (#10412)\r\n* \"Open Windows Terminal Here\" will now appear in your language (#10446)\r\n* <sup>1.9.1523.0</sup> Terminal will no longer exit unceremoniously when your `startingDirectory` cannot be found (#10263)\r\n* <sup>1.9.1523.0</sup> A window that receives an incoming console application will now spring to the foreground (#10217)\r\n\r\n### Performance\r\n\r\n* During heavy output load, we will spend a lot less time ...\r\n   * formatting VT strings (#10426) (thanks @skyline75489!)\r\n   * creating temporary `string_view`s (#10471) (thanks @skyline75489!)\r\n   * notifying an accessibility channel that has been disconnected (#10537) (#10569)\r\n   * emitting debugging information (#10533)\r\n\r\n### Reliability\r\n\r\n* Terminal should crash less often when you are closing a tab (#10549)\r\n* We've fixed a crash in reloading the settings with the Settings page open (#10390)\r\n* An application setting the Terminal background should probably not crash it, huh? (#10357)\r\n* <sup>1.9.1523.0</sup> If our packaged fonts cannot be found, we will now be more robust and less likely to faceplant on launch (#10260)\r\n* <sup>1.9.1523.0</sup> The \"default terminal\" feature no longer causes crashes on OS versions where it is unavailable (#10238)\r\n* <sup>1.9.1523.0</sup> If we can't accept handoff (\"default terminal\") connections when we start, we'll no longer crash on launch (#10261)\r\n* The settings UI will no longer overflow its frame on launch/reload (#10619) (thanks @mimvdb)\r\n* Terminal will try to do a better job recovering the profile you were looking at when the settings reload (#10618) (thanks @mimvdb)\r\n* <sup>1.9.1523.0</sup> The \"default terminal\" dropdown has been fixed for High Contrast users (#10185)\r\n\r\n### VT Support\r\n\r\n* `RIS` will now reset mouse mode and encoding (#10602)\r\n* `DECSET 12` (enable/disable cursor blink) is no longer ignored (#10589)\r\n\r\n## WPF Control\r\n\r\n* We've fixed an issue in the WPF control's 64-bit build that resulted in hilarious colors (#10486)\r\n\r\n## Documentation, Schema and Code Health\r\n\r\nThank you to @j4james, @ayushman16, @onerandomusername, @ealap, @LuanVSO and\r\n@WSLUser for contributions to the documentation, code health, build scripts and\r\nJSON schema document.\r\n\r\nAdditional thanks to @jsoref for maintaining the [check-spelling action] and\r\nkeeping Terminal's spell checker up to date!\r\n\r\n[check-spelling action]: https://github.com/check-spelling/check-spelling\r\n[Cascadia Code 2106.17]: https://github.com/microsoft/cascadia-code/releases/tag/v2106.17\r\n",
   "reactions": {
-    "url": "https://api.github.com/repos/microsoft/terminal/releases/43547483/reactions",
-    "total_count": 37,
-    "+1": 22,
+    "url": "https://api.github.com/repos/microsoft/terminal/releases/46200441/reactions",
+    "total_count": 23,
+    "+1": 11,
     "-1": 0,
-    "laugh": 2,
+    "laugh": 0,
     "hooray": 0,
     "confused": 0,
-    "heart": 10,
-    "rocket": 0,
-    "eyes": 3
+    "heart": 3,
+    "rocket": 8,
+    "eyes": 1
   }
 }
