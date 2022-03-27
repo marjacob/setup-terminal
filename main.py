@@ -54,7 +54,7 @@ class MSIXPackage(object):
         self.version = match.group("Version")
 
         # Make sure that the target CPU is supported by Inno Setup.
-        if not self.cpu in ["ARM64", "IA64", "x64", "x86"]:
+        if self.cpu not in ["ARM64", "IA64", "x64", "x86"]:
             raise ValueError("Unsupported target CPU {}.", self.cpu)
 
         with zip.open(name) as pkg:
@@ -63,7 +63,7 @@ class MSIXPackage(object):
     def __del__(self):
         try:
             self.archive.close()
-        except AttributeError as e:
+        except AttributeError:
             pass
 
     @staticmethod
@@ -99,11 +99,15 @@ class MSIXBundle(object):
 
     @staticmethod
     def match(name: str):
+        # Examples:
+        # Microsoft.WindowsTerminal_1.12.10393.0_8wekyb3d8bbwe.msixbundle
+        # Microsoft.WindowsTerminal_Win10_1.12.10732.0_8wekyb3d8bbwe.msixbundle
         return re.fullmatch(
             r"""^
             (?P<Publisher>Microsoft)
             (?:\.)
             (?P<Package>WindowsTerminal)
+            (?:_Win10)?
             (?P<Preview>Preview)?
             (?:_)
             (?P<Version>\d+\.\d+\.\d+\.\d+)
@@ -219,7 +223,7 @@ def make_setup(
     with ClosedNamedTemporaryFile(tpl.render(ctx)) as iss:
         try:
             subprocess.run(["ISCC.exe", iss])
-        except subprocess.CalledProcessError as e:
+        except subprocess.CalledProcessError:
             return False
 
     return True
