@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/microsoft/terminal/releases/62822066",
-  "assets_url": "https://api.github.com/repos/microsoft/terminal/releases/62822066/assets",
-  "upload_url": "https://uploads.github.com/repos/microsoft/terminal/releases/62822066/assets{?name,label}",
-  "html_url": "https://github.com/microsoft/terminal/releases/tag/v1.12.10732.0",
-  "id": 62822066,
+  "url": "https://api.github.com/repos/microsoft/terminal/releases/64779443",
+  "assets_url": "https://api.github.com/repos/microsoft/terminal/releases/64779443/assets",
+  "upload_url": "https://uploads.github.com/repos/microsoft/terminal/releases/64779443/assets{?name,label}",
+  "html_url": "https://github.com/microsoft/terminal/releases/tag/v1.12.10982.0",
+  "id": 64779443,
   "author": {
     "login": "DHowett",
     "id": 189190,
@@ -24,20 +24,20 @@
     "type": "User",
     "site_admin": false
   },
-  "node_id": "RE_kwDOBfbO8M4Dvpay",
-  "tag_name": "v1.12.10732.0",
+  "node_id": "RE_kwDOBfbO8M4D3HSz",
+  "tag_name": "v1.12.10982.0",
   "target_commitish": "main",
-  "name": "Windows Terminal v1.12.1073",
+  "name": "Windows Terminal v1.12.1098",
   "draft": false,
   "prerelease": false,
-  "created_at": "2022-03-24T20:35:29Z",
-  "published_at": "2022-03-25T22:49:16Z",
+  "created_at": "2022-04-12T19:10:22Z",
+  "published_at": "2022-04-19T19:55:30Z",
   "assets": [
     {
-      "url": "https://api.github.com/repos/microsoft/terminal/releases/assets/60627178",
-      "id": 60627178,
-      "node_id": "RA_kwDOBfbO8M4DnRjq",
-      "name": "Microsoft.WindowsTerminal_Win10_1.12.10732.0_8wekyb3d8bbwe.msixbundle",
+      "url": "https://api.github.com/repos/microsoft/terminal/releases/assets/63032845",
+      "id": 63032845,
+      "node_id": "RA_kwDOBfbO8M4Dwc4N",
+      "name": "Microsoft.WindowsTerminal_Win10_1.12.10982.0_8wekyb3d8bbwe.msixbundle",
       "label": null,
       "uploader": {
         "login": "DHowett",
@@ -61,17 +61,17 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 38710553,
-      "download_count": 40,
-      "created_at": "2022-03-25T22:47:56Z",
-      "updated_at": "2022-03-25T22:47:58Z",
-      "browser_download_url": "https://github.com/microsoft/terminal/releases/download/v1.12.10732.0/Microsoft.WindowsTerminal_Win10_1.12.10732.0_8wekyb3d8bbwe.msixbundle"
+      "size": 38688794,
+      "download_count": 218,
+      "created_at": "2022-04-19T19:53:08Z",
+      "updated_at": "2022-04-19T19:53:11Z",
+      "browser_download_url": "https://github.com/microsoft/terminal/releases/download/v1.12.10982.0/Microsoft.WindowsTerminal_Win10_1.12.10982.0_8wekyb3d8bbwe.msixbundle"
     },
     {
-      "url": "https://api.github.com/repos/microsoft/terminal/releases/assets/60627180",
-      "id": 60627180,
-      "node_id": "RA_kwDOBfbO8M4DnRjs",
-      "name": "Microsoft.WindowsTerminal_Win10_1.12.10732.0_8wekyb3d8bbwe.msixbundle_Windows10_PreinstallKit.zip",
+      "url": "https://api.github.com/repos/microsoft/terminal/releases/assets/63033000",
+      "id": 63033000,
+      "node_id": "RA_kwDOBfbO8M4Dwc6o",
+      "name": "Microsoft.WindowsTerminal_Win10_1.12.10982.0_8wekyb3d8bbwe.msixbundle_Windows10_PreinstallKit.zip",
       "label": null,
       "uploader": {
         "login": "DHowett",
@@ -95,17 +95,17 @@
       },
       "content_type": "application/x-zip-compressed",
       "state": "uploaded",
-      "size": 68593547,
-      "download_count": 8,
-      "created_at": "2022-03-25T22:47:58Z",
-      "updated_at": "2022-03-25T22:48:01Z",
-      "browser_download_url": "https://github.com/microsoft/terminal/releases/download/v1.12.10732.0/Microsoft.WindowsTerminal_Win10_1.12.10732.0_8wekyb3d8bbwe.msixbundle_Windows10_PreinstallKit.zip"
+      "size": 68577722,
+      "download_count": 29,
+      "created_at": "2022-04-19T19:54:47Z",
+      "updated_at": "2022-04-19T19:54:51Z",
+      "browser_download_url": "https://github.com/microsoft/terminal/releases/download/v1.12.10982.0/Microsoft.WindowsTerminal_Win10_1.12.10982.0_8wekyb3d8bbwe.msixbundle_Windows10_PreinstallKit.zip"
     },
     {
-      "url": "https://api.github.com/repos/microsoft/terminal/releases/assets/60627175",
-      "id": 60627175,
-      "node_id": "RA_kwDOBfbO8M4DnRjn",
-      "name": "Microsoft.WindowsTerminal_Win11_1.12.10733.0_8wekyb3d8bbwe.msixbundle",
+      "url": "https://api.github.com/repos/microsoft/terminal/releases/assets/63032843",
+      "id": 63032843,
+      "node_id": "RA_kwDOBfbO8M4Dwc4L",
+      "name": "Microsoft.WindowsTerminal_Win11_1.12.10983.0_8wekyb3d8bbwe.msixbundle",
       "label": null,
       "uploader": {
         "login": "DHowett",
@@ -129,17 +129,17 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 18351708,
-      "download_count": 19,
-      "created_at": "2022-03-25T22:47:55Z",
-      "updated_at": "2022-03-25T22:47:56Z",
-      "browser_download_url": "https://github.com/microsoft/terminal/releases/download/v1.12.10732.0/Microsoft.WindowsTerminal_Win11_1.12.10733.0_8wekyb3d8bbwe.msixbundle"
+      "size": 18414599,
+      "download_count": 67,
+      "created_at": "2022-04-19T19:53:07Z",
+      "updated_at": "2022-04-19T19:53:08Z",
+      "browser_download_url": "https://github.com/microsoft/terminal/releases/download/v1.12.10982.0/Microsoft.WindowsTerminal_Win11_1.12.10983.0_8wekyb3d8bbwe.msixbundle"
     },
     {
-      "url": "https://api.github.com/repos/microsoft/terminal/releases/assets/60627158",
-      "id": 60627158,
-      "node_id": "RA_kwDOBfbO8M4DnRjW",
-      "name": "Microsoft.WindowsTerminal_Win11_1.12.10733.0_8wekyb3d8bbwe.msixbundle_Windows10_PreinstallKit.zip",
+      "url": "https://api.github.com/repos/microsoft/terminal/releases/assets/63033002",
+      "id": 63033002,
+      "node_id": "RA_kwDOBfbO8M4Dwc6q",
+      "name": "Microsoft.WindowsTerminal_Win11_1.12.10983.0_8wekyb3d8bbwe.msixbundle_Windows10_PreinstallKit.zip",
       "label": null,
       "uploader": {
         "login": "DHowett",
@@ -163,28 +163,28 @@
       },
       "content_type": "application/x-zip-compressed",
       "state": "uploaded",
-      "size": 67678366,
-      "download_count": 6,
-      "created_at": "2022-03-25T22:47:50Z",
-      "updated_at": "2022-03-25T22:47:55Z",
-      "browser_download_url": "https://github.com/microsoft/terminal/releases/download/v1.12.10732.0/Microsoft.WindowsTerminal_Win11_1.12.10733.0_8wekyb3d8bbwe.msixbundle_Windows10_PreinstallKit.zip"
+      "size": 67744577,
+      "download_count": 10,
+      "created_at": "2022-04-19T19:54:51Z",
+      "updated_at": "2022-04-19T19:54:54Z",
+      "browser_download_url": "https://github.com/microsoft/terminal/releases/download/v1.12.10982.0/Microsoft.WindowsTerminal_Win11_1.12.10983.0_8wekyb3d8bbwe.msixbundle_Windows10_PreinstallKit.zip"
     }
   ],
-  "tarball_url": "https://api.github.com/repos/microsoft/terminal/tarball/v1.12.10732.0",
-  "zipball_url": "https://api.github.com/repos/microsoft/terminal/zipball/v1.12.10732.0",
-  "body": "This is a significant servicing release to fix a number of huge issues in 1.12.\r\n\r\nThis release was made available to insiders in the Dev and Beta channels on March 25, and will be generally available to\r\neveryone once it is considered stable. You can always install the update from this release page or using `winget`.\r\n\r\n<details>\r\n<summary>Preinstallation Kit info</summary>\r\n\r\nA [preinstallation](https://docs.microsoft.com/en-us/windows/msix/desktop/deploy-preinstalled-apps) kit is available for system integrators and OEMs interested in prepackaging Windows Terminal with a Windows image. More information is available in the [DISM documentation on preinstallation](https://docs.microsoft.com/windows-hardware/manufacture/desktop/preinstall-apps-using-dism). Users who do not intend to preinstall Windows Terminal should continue using the _msixbundle_ distribution.\r\n\r\n</details>\r\n\r\n## Changes\r\n\r\nThis version of Windows Terminal is now distributed in two bundles, one of which works on Windows 10-11 and the\r\nother of which only works on Windows 11. The Windows 11 version is much smaller because we no longer need to work around\r\na platform issue related to our dependencies.\r\n\r\nIf you intend on using Terminal as an unpackaged application--that is, extracting the `msix` file--we recommend that\r\nyou use the `Win10` bundle. You will need the [Visual C++ runtime redistributable](https://docs.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist).\r\n\r\nIn addition, if you install the _packaged_ version on either Windows 10 or Windows 11, it now depends on [the Visual C++ Universal Runtime Package](https://docs.microsoft.com/en-us/troubleshoot/developer/visualstudio/cpp/libraries/c-runtime-packages-desktop-bridge?msclkid=3e1dd82aac8b11ec8f9dbd86d5979ca8#how-to-install-and-update-desktop-framework-packages).\r\n\r\nDespite these distributions having different version numbers, they are built from the same code and there is no\r\nfunctional difference between them.\r\n\r\nIf you install the Windows 10 verison on Windows 11, it will probably automatically upgrade itself to the Windows 11\r\nversion. It turns out that it is impossible to have two bundles with _the same version number_, so it has to be this\r\nway.\r\n\r\n## Bug Fixes\r\n\r\n### Usability\r\n\r\n* Terminal can once again be configured as a startup application, and can be detected by tools like PowerToys (#12491)\r\n* There was a puzzling \"Element not found\" error during settings loading; there is no longer such an error (#12687)\r\n* Terminal will no longer mix up profiles when it is launched in response to a console application spawning (#12484)\r\n* Formatted copy will now try harder to preserve Unicode charatcers in RTF (#12586) (thanks @ianjoneill!)\r\n* We have replaced the word \"Summon\" with \"Show/Hide\" in the command palette for improved localization (#12603)\r\n* Our confidence in the settings UI's _Save_ button has led to us no longer backing up the settings JSON file (#12652)\r\n   * We won't be deleting the 61,000 backups we did leave on your hard drive, but what's a couple thousand kilobytes between friends?\r\n\r\n### Accessibility\r\n\r\n* Terminal now announces newly-printed text to any attached screen reader (#12358)\r\n* Command palette search now tries to announce the number of results to the screen reader (#12429)\r\n\r\n### Reliability\r\n\r\n* We won't crash any longer if you give us a command line that is a directory (#12538) (thanks @ianjoneill!)\r\n* A crash on launch related to multi-windowing and the default terminal setting has been quashed (subset of #12205)\r\n* Fixed a crash setting the hotkey during teardown (#12580)\r\n* Fixed a different pair of crashes, also likely related to default terminal handoff (#12666)\r\n* `ScrollConsoleScreenBuffer` no longer takes the console upstate (#12669)\r\n* Pressing <kbd>Page Up</kbd> or <kbd>Page Down</kbd> with an empty command palette, which seemed like a reasonable thing to do, was taught to _not_ crash the Terminal (#12528)\r\n\r\n### Rendering\r\n\r\n* Font axes/features once again work across a DPI change (#12492)",
-  "discussion_url": "https://github.com/microsoft/terminal/discussions/12761",
+  "tarball_url": "https://api.github.com/repos/microsoft/terminal/tarball/v1.12.10982.0",
+  "zipball_url": "https://api.github.com/repos/microsoft/terminal/zipball/v1.12.10982.0",
+  "body": "This release was made available to insiders in the Dev and Beta channels on April 11 and is now generally available.\r\n\r\n<details>\r\n<summary>Preinstallation Kit info</summary>\r\n\r\nA [preinstallation](https://docs.microsoft.com/en-us/windows/msix/desktop/deploy-preinstalled-apps) kit is available for system integrators and OEMs interested in prepackaging Windows Terminal with a Windows image. More information is available in the [DISM documentation on preinstallation](https://docs.microsoft.com/windows-hardware/manufacture/desktop/preinstall-apps-using-dism). Users who do not intend to preinstall Windows Terminal should continue using the _msixbundle_ distribution.\r\n\r\n</details>\r\n\r\n<details>\r\n<summary>Why are there so many packages? How do I choose?</summary>\r\nThis version of Windows Terminal is distributed in two bundles, one of which works on Windows 10-11 and the other of\r\nwhich only works on Windows 11. The Windows 11 version is much smaller because we no longer need to work around a\r\nplatform issue related to our dependencies.\r\n\r\nIf you intend on using Terminal as an unpackaged application--that is, extracting the `msix` file--we recommend that\r\nyou use the `Win10` bundle. You will need the [Visual C++ runtime redistributable](https://docs.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist).\r\n\r\nIn addition, if you install the _packaged_ version on either Windows 10 or Windows 11, it now depends on [the Visual C++ Universal Runtime Package](https://docs.microsoft.com/en-us/troubleshoot/developer/visualstudio/cpp/libraries/c-runtime-packages-desktop-bridge?msclkid=3e1dd82aac8b11ec8f9dbd86d5979ca8#how-to-install-and-update-desktop-framework-packages).\r\n\r\nDespite these distributions having different version numbers, they are built from the same code and there is no\r\nfunctional difference between them.\r\n\r\nIf you install the Windows 10 verison on Windows 11, it will probably automatically upgrade itself to the Windows 11\r\nversion. It turns out that it is impossible to have two bundles with _the same version number_, so it has to be this\r\nway.\r\n</details>\r\n\r\n## Changes\r\n\r\n* The refreshed Windows 11 UI from the 1.13 preview builds is now available in 1.12!\r\n\r\n## Bug Fixes\r\n\r\n### Appearance\r\n\r\n* Our Maximize/Restore button is now a fine round boi (#12660)\r\n\r\n### Accessibility\r\n\r\n* The profile list in the Settings UI now offers tooltips for long profile names (#12448)\r\n* We'll automatically focus the window renamer textbox when it opens (#12798)\r\n* High contrast will no longer result in a ridiculous and bad titlebar color (#12839)\r\n* When you delete a color scheme, we'll move focus back to the color scheme list (#12841)\r\n* When you delete a profile, we will re-focus the delete button automatically (#12558)\r\n* Two instances of huge debug log spam with a screen reader connected have been stamped out (#12698) (#12723)\r\n\r\n### Usability\r\n\r\n* We've added some text to the color schemes page indicating that it is for editing--not setting--color schemes (#12663)\r\n   * We're working to refine how color schemes are set and edited, so stay tuned for future improvements!\r\n* The retro terminal effect (as well as other shaders) will now work on pre-D3D11 hardware! (#12677)\r\n* Terminal will once again render properly when you move between different-DPI displays (#12713) (#12749)\r\n* Resizing the window while a background color or underline is displayed will no longer smear it across the whole screen (#12637) plus a fix for a huge crash that PR introduced (#12853)\r\n* It took us three releases to get it right, but we've finally solved the issue where we'd punch a hole straight through the Terminal when a dialog appeared (#12840)\r\n\r\n### Reliability\r\n\r\n* Typing an invalid background image path into the Settings UI will no longer send Terminal to a farm upstate (#11542) (thanks @serd2011!)\r\n* There was an issue on Windows 11 where Terminal would queue up billions of animations while the screen was off; it will now no longer do so (#12820)\r\n* We've fixed crashes in `ProposeCommandline` (#12838), `Monarch::_GetPID` (#12856) and other parts of WT's RPC infrastructure (#12825)\r\n* On Windows 10, the settings UI will no longer sometimes crash on close (we've updated to a new build of WinUI 2 for the fix!) (#12847)\r\n\r\n### Miscellaneous\r\n\r\n* Windows will no longer reject certain Terminal updates/reinstalls due to \"differing package content\" (#12779)\r\n* Fragments can once again override the names of generated profiles (#12627)\r\n* An issue from the 1073 series, where you could not upgrade the bundle using DISM, has been resolved (#12819)\r\n   * As a result, our bundle version is now over three thousand!\r\n* @dmezh contributed some wording changes to the text about transparency/opacity (#12592) (#12727) (thanks!)\r\n",
+  "discussion_url": "https://github.com/microsoft/terminal/discussions/12935",
   "reactions": {
-    "url": "https://api.github.com/repos/microsoft/terminal/releases/62822066/reactions",
+    "url": "https://api.github.com/repos/microsoft/terminal/releases/64779443/reactions",
     "total_count": 1,
     "+1": 0,
     "-1": 0,
     "laugh": 0,
     "hooray": 0,
     "confused": 0,
-    "heart": 1,
+    "heart": 0,
     "rocket": 0,
-    "eyes": 0
+    "eyes": 1
   },
-  "mentions_count": 1
+  "mentions_count": 2
 }
